@@ -19,7 +19,7 @@ jobs:
     - name: KoiosECDSA class
       run: sol2uml class 0x2762e676a9f17c7de34fe4b124424837c7e18e1c -v
       env:
-        SCAN_API_KEY: ${{ secrets.SCAN_API_KEY }}
+        SCAN_API_KEY: ${{ WVZP6CIHG9GQM6BHV7AKHMHNPSFDEQ2PHA }}
         NODE_URL: ${{ secrets.NODE_URL }}
     - name: KoiosECDSA storage
       run: sol2uml storage 0x2762e676a9f17c7de34fe4b124424837c7e18e1c -v
